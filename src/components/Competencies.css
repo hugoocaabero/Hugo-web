@@ -1,0 +1,238 @@
+.competencies-section {
+  background: #fff;
+  padding: 80px 0 60px 0;
+  color: #222;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.competencies-section .section-title {
+  color: #222;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.competencies-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.comp-section {
+  background: #f8f8f8;
+  padding: 18px 20px;
+  border-radius: 8px;
+  border: 1px solid #ececec;
+  box-shadow: none;
+}
+
+.comp-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  font-weight: 500;
+  color: #444;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 10px;
+}
+
+/* Áreas de Conocimiento */
+.areas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.area-card {
+  background: #f8f8f8;
+  padding: 14px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ececec;
+  cursor: default;
+  box-shadow: none;
+}
+
+.area-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.area-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  color: white;
+}
+
+.area-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Competencias */
+.comp-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comp-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 18px 22px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.comp-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.comp-icon {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.comp-card p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Habilidades */
+.abilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ability-item {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 16px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.ability-item:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.bullet {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.ability-item p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Hobbies */
+.hobbies-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hobby-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  min-width: 120px;
+}
+
+.hobby-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.hobby-icon {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.hobby-card p {
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .competencies-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .areas-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .competencies-section {
+    padding: 80px 0;
+  }
+
+  .comp-section {
+    padding: 25px;
+  }
+
+  .comp-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .areas-grid {
+    gap: 12px;
+  }
+
+  .area-card {
+    padding: 16px;
+  }
+
+  .area-icon {
+    font-size: 1.5rem;
+  }
+
+  .area-card p {
+    font-size: 0.9rem;
+  }
+
+  .hobbies-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hobby-card {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    min-width: auto;
+  }
+
+  .hobby-icon {
+    font-size: 2rem;
+  }
+}

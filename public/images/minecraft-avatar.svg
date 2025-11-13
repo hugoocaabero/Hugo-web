@@ -1,0 +1,43 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo transparente -->
+  <rect width="300" height="300" fill="transparent"/>
+  
+  <!-- Cabeza (cubo principal) -->
+  <g id="head">
+    <!-- Cara frontal -->
+    <rect x="75" y="75" width="150" height="150" fill="#D4A574"/>
+    
+    <!-- Sombras para dar efecto 3D -->
+    <rect x="75" y="75" width="150" height="15" fill="#C89968"/>
+    <rect x="75" y="210" width="150" height="15" fill="#B8895C"/>
+    <rect x="75" y="75" width="15" height="150" fill="#C89968"/>
+    <rect x="210" y="75" width="15" height="150" fill="#B8895C"/>
+    
+    <!-- Ojos -->
+    <rect x="105" y="120" width="30" height="15" fill="#4A90E2"/>
+    <rect x="165" y="120" width="30" height="15" fill="#4A90E2"/>
+    
+    <!-- Pupila izquierda -->
+    <rect x="120" y="120" width="10" height="15" fill="#1a5490"/>
+    <!-- Pupila derecha -->
+    <rect x="170" y="120" width="10" height="15" fill="#1a5490"/>
+    
+    <!-- Nariz -->
+    <rect x="135" y="150" width="30" height="30" fill="#C89968"/>
+    
+    <!-- Boca -->
+    <rect x="120" y="180" width="60" height="10" fill="#8B6F47"/>
+    
+    <!-- Detalles de pixel art -->
+    <rect x="90" y="90" width="15" height="15" fill="#E8C4A0"/>
+    <rect x="195" y="90" width="15" height="15" fill="#B8895C"/>
+    
+    <!-- Cabello/gorro -->
+    <rect x="75" y="60" width="150" height="15" fill="#4A3728"/>
+    <rect x="60" y="75" width="15" height="75" fill="#4A3728"/>
+    <rect x="225" y="75" width="15" height="75" fill="#4A3728"/>
+  </g>
+  
+  <!-- Sombra inferior -->
+  <ellipse cx="150" cy="280" rx="80" ry="15" fill="#000000" opacity="0.2"/>
+</svg>
