@@ -89,6 +89,16 @@ export const portfolioData = {
       technologies: ["Python", "MediaPipe Hands", "OpenCV"],
       link: "https://github.com/hugoocaabero/rps"
     }
+    ,
+    {
+      id: 3,
+      title: "SmartFlow AI – Chatbot y Automatización",
+      description: "Sistema de chatbot con IA integrado con n8n, Google Sheets y Bubble.io.",
+      details: "Chatbot inteligente (Google Gemini) con memoria conversacional conectado a una base de FAQs en Google Sheets y automatizaciones en n8n. Incluye notificaciones por email vía Gmail, interfaz web en Bubble.io y flujos exportables para despliegue rápido.",
+      technologies: ["n8n", "Google Gemini AI", "Google Sheets", "Gmail API", "Bubble.io"],
+      link: "https://github.com/hugoocaabero/ejemplo_ia_chatbot",
+      live: "https://hcaberocreus.bubbleapps.io/version-test?debug_mode=true"
+    }
   ],
   blog: [],
   experience: [],
